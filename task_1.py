@@ -12,7 +12,6 @@ class Student:
         self.group = group
         self.grades = grades
 
-    @property
     def average(self):
         return sum(self.grades) / len(self.grades) if self.grades else 0
 
@@ -119,4 +118,5 @@ def main():
             print("Неверный выбор")
 
 if __name__ == "__main__":
+
     main()
