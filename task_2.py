@@ -1,4 +1,3 @@
-# task_2.py
 import sqlite3
 
 conn = sqlite3.connect("resource/drinks.db")
@@ -79,4 +78,5 @@ while True:
 
     elif ch == "0":
         conn.close()
+
         break
